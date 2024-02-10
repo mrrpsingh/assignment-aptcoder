@@ -1,0 +1,33 @@
+.container{
+    background-color: #dfe1e4;
+    width: 100vw;
+    height: 80vh;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'montserrat', sans-serif;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.task-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-title {
+  flex: 1;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.task-date {
+  margin-right: 10px;
+  
+}
